@@ -1,5 +1,3 @@
-package daphne.s.drawing.designer;
-
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -30,10 +28,11 @@ import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 
 /**
- *
- * @author Luke Aaron Reynolds - lreynolds188@gmail.com
+ *	@author Luke Reynolds
+ *	@email lreynolds188@gmail.com
+ *	@website http://lukereynolds.net/
  */
-public class DaphnesDrawingDesigner extends JFrame implements WindowListener, ActionListener 
+class DaphnesDrawingDesigner extends JFrame implements WindowListener, ActionListener
 {
     // Declare important variables to be used through out the program.
     int intTotalX = 30;
